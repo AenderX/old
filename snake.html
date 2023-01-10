@@ -18,7 +18,7 @@
     justify-content: center;
   }
   canvas {
-    border: 10px solid turquoise;
+    border: 6px solid turquoise;
   }
   </style>
 </head>
@@ -61,7 +61,7 @@ function loop() {
   requestAnimationFrame(loop);
 
   // slow game loop to 15 fps instead of 60 (60/15 = 4)
-  if (++count < 3) {
+  if (++count < 15) {
     return;
   }
 
