@@ -237,7 +237,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0d182d;
+  background: #0e6594;
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
@@ -245,15 +245,4 @@ section {
 
 #footer .copyright {
   text-align: center;
-}
-
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
-}
-
-#footer .credits a {
-  color: #72a8bf;
 }
