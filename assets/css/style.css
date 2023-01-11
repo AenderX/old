@@ -66,15 +66,16 @@ h6,
   text-decoration: underline;
 }
 
-#header .snake-button {
+.light-blue-button {
     background-color: lightblue; /* sets the background color to light blue */
     color: white; /* sets the text color to white */
     border: 2px solid cyan; /* sets the border color to cyan and width to 2 pixels */
     padding: 10px; /* adds some padding to the button */
-    border-radius: 8px; /* rounds the corners of the button */
-    text-align: right; /* centers the button text */
+    border-radius: 5px; /* rounds the corners of the button */
+    text-align: center; /* centers the button text */
     font-size: 16px; /* sets the font size */
 }
+
 @media (max-width: 768px) {
   #header .logo h1 {
     font-size: 28px;
